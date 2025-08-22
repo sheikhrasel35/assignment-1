@@ -344,3 +344,28 @@ li {
   margin: 0 auto 40px auto;
   line-height: 1.6;
 }
+.nav-links {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.nav-links a {
+  text-decoration: none;
+  color: #4a4aff;
+  font-size: 0.95rem;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+.nav-links a:hover {
+  color: #9c00cc;
+}
+nav.nav ul {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  list-style-type: none;
+}
+.nav a {
+  margin: 0px 15px;
+  text-decoration: none;
+}
